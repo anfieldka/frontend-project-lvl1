@@ -1,6 +1,13 @@
 <a
-href="https://codeclimate.com/github/codeclimate/codec
-limate/maintainability"><img
-src="https://api.codeclimate.com/v1/badges/a99a88d28ad
-37a79dbf6/maintainability" /></a>
+href="https://codeclimate.com/github/anfieldka/fronten
+d-project-lvl1/maintainability"><img
+src="https://api.codeclimate.com/v1/badges/b75937a2dc8
+eb984003a/maintainability" /></a>
+
+<a
+href="https://codeclimate.com/github/anfieldka/fronten
+d-project-lvl1/test_coverage"><img
+src="https://api.codeclimate.com/v1/badges/b75937a2dc8
+eb984003a/test_coverage" /></a>
+
 
