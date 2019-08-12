@@ -6,3 +6,9 @@
 <h3><em>Even game</em></h3>
 
  <a href="https://asciinema.org/a/iXLwdmuhmned9SOyxT5IXbZ6j"><img src="https://asciinema.org/a/iXLwdmuhmned9SOyxT5IXbZ6j.png" width="836"/></a>
+
+
+<h3><em>Calc game</em></h3>
+
+ <a href="https://asciinema.org/a/Fb0gHIgxEOxgDHXlGLCBcw4q8"><img src="https://asciinema.org/a/Fb0gHIgxEOxgDHXlGLCBcw4q8.png" width="836"/></a>
+
