@@ -1,11 +1,11 @@
 {
   "name": "anf-project-lvl1-braingames",
-  "version": "0.0.4",
+  "version": "0.0.9",
   "description": "",
   "main": "index.js",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js",
-    "brain-even": "dist/bin/brain-even.js"
+    "brain-calc": "dist/bin/games/brain-calc.js",
+    "brain-even": "dist/bin/games/brain-even.js" 
   },
   "files": [
     "dist"
@@ -30,6 +30,7 @@
     "eslint-plugin-import": "^2.18.2"
   },
   "dependencies": {
+    "@hexlet/pairs": "^1.0.10",
     "readline-sync": "^1.4.10"
   }
 }
