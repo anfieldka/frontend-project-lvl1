@@ -3,6 +3,6 @@
 <a href="https://travis-ci.org/anfieldka/frontend-project-lvl1"><img src="https://travis-ci.org/anfieldka/frontend-project-lvl1.svg?branch=master" /></a>
 
 
-<h3><em>Eve game</em><h3>
+<h3><em>Even game</em></h3>
 
  <iframe width="480" height="360" src="https://asciinema.org/a/iXLwdmuhmned9SOyxT5IXbZ6j" frameborder="0" allowfullscreen></iframe>
