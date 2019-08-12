@@ -5,4 +5,4 @@
 
 <h3><em>Even game</em></h3>
 
- <iframe width="480" height="360" src="https://asciinema.org/a/iXLwdmuhmned9SOyxT5IXbZ6j" frameborder="0" allowfullscreen></iframe>
+ <a href="https://asciinema.org/a/iXLwdmuhmned9SOyxT5IXbZ6j"><img src="https://asciinema.org/a/iXLwdmuhmned9SOyxT5IXbZ6j.png" width="836"/></a>
