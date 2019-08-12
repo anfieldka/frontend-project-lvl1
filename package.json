@@ -1,11 +1,11 @@
 {
   "name": "anf-project-lvl1-braingames",
-  "version": "0.0.9",
+  "version": "0.0.13",
   "description": "",
   "main": "index.js",
   "bin": {
-    "brain-calc": "dist/bin/games/brain-calc.js",
-    "brain-even": "dist/bin/games/brain-even.js" 
+    "brain-calc": "dist/bin/brain-calc.js",
+    "brain-even": "dist/bin/brain-even.js" 
   },
   "files": [
     "dist"

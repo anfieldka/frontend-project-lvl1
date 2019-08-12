@@ -1,4 +1,11 @@
 #!/usr/bin/env node
-import start from '../games/brain-even';
 
-start();
+import { randomNum, takeAnswer, testAnswer } from '..';
+
+const helloWord = 'Answer "yes" if number even otherwise answer "no".\n';
+
+const getRandCorrAns = numbers => (numbers % 2 === 0 ? 'yes' : 'no');
+
+export default () => {
+  testAnswer(helloWord, randomNum, takeAnswer, getRandCorrAns);
+};
