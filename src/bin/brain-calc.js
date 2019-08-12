@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { cons, car, cdr } from '@hexlet/pairs';
-import { randomNum, takeAnswer, testAnswer } from '..';
+import { randomNum, takeAnswer, testAnswer } from '../index';
 
 const randomInt = () => Math.floor(Math.random() * (4 - 1)) + 1;
 

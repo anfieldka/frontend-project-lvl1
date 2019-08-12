@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { randomNum, takeAnswer, testAnswer } from '..';
+import { randomNum, takeAnswer, testAnswer } from '../index';
 
 const helloWord = 'Answer "yes" if number even otherwise answer "no".\n';
 
