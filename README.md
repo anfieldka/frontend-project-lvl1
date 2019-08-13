@@ -17,3 +17,8 @@
 
  <a href="https://asciinema.org/a/n5BAD73plI0oOw0qffYQQbmCW"><img src="https://asciinema.org/a/n5BAD73plI0oOw0qffYQQbmCW.png" width="836"/></a>
 
+
+ <h3><em>Progression game</em></h3>
+
+ <a href="https://asciinema.org/a/IF4zNjA6Yg8JRDwipZTcQhN5H"><img src="https://asciinema.org/a/IF4zNjA6Yg8JRDwipZTcQhN5H.png" width="836"/></a>
+
