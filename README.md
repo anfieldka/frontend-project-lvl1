@@ -22,3 +22,7 @@
 
  <a href="https://asciinema.org/a/IF4zNjA6Yg8JRDwipZTcQhN5H"><img src="https://asciinema.org/a/IF4zNjA6Yg8JRDwipZTcQhN5H.png" width="836"/></a>
 
+ <h3><em>Prime game</em></h3>
+
+ <a href="https://asciinema.org/a/DcEJgSBO4lkLQ8lkt0DXYypbr"><img src="https://asciinema.org/a/DcEJgSBO4lkLQ8lkt0DXYypbr.png" width="836"/></a>
+
