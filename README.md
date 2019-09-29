@@ -5,24 +5,23 @@
 
 <h3><em>Even game</em></h3>
 
- <a href="https://asciinema.org/a/iXLwdmuhmned9SOyxT5IXbZ6j"><img src="https://asciinema.org/a/iXLwdmuhmned9SOyxT5IXbZ6j.png" width="836"/></a>
+ <a href="https://asciinema.org/a/sF8Gry44j2qNORuHpRoAY3aKK"><img src="https://asciinema.org/a/sF8Gry44j2qNORuHpRoAY3aKK.png" width="836"/></a>
 
 
 <h3><em>Calc game</em></h3>
 
- <a href="https://asciinema.org/a/Fb0gHIgxEOxgDHXlGLCBcw4q8"><img src="https://asciinema.org/a/Fb0gHIgxEOxgDHXlGLCBcw4q8.png" width="836"/></a>
+ <a href="https://asciinema.org/a/lbKnzRHleFOrkf0qnvMLcEOmb"><img src="https://asciinema.org/a/lbKnzRHleFOrkf0qnvMLcEOmb.png" width="836"/></a>
 
 
 <h3><em>GCD game</em></h3>
 
- <a href="https://asciinema.org/a/n5BAD73plI0oOw0qffYQQbmCW"><img src="https://asciinema.org/a/n5BAD73plI0oOw0qffYQQbmCW.png" width="836"/></a>
+ <a href="https://asciinema.org/a/99dpyHzXbI3mxIbrluOcZAqMn"><img src="https://asciinema.org/a/99dpyHzXbI3mxIbrluOcZAqMn.png" width="836"/></a>
 
 
- <h3><em>Progression game</em></h3>
+<h3><em>Progression game</em></h3>
 
- <a href="https://asciinema.org/a/IF4zNjA6Yg8JRDwipZTcQhN5H"><img src="https://asciinema.org/a/IF4zNjA6Yg8JRDwipZTcQhN5H.png" width="836"/></a>
+ <a href="https://asciinema.org/a/cjWqys1yLOQIts4webZE1HtRC"><img src="https://asciinema.org/a/cjWqys1yLOQIts4webZE1HtRC.png" width="836"/></a>
 
- <h3><em>Prime game</em></h3>
+<h3><em>Prime game</em></h3>
 
- <a href="https://asciinema.org/a/DcEJgSBO4lkLQ8lkt0DXYypbr"><img src="https://asciinema.org/a/DcEJgSBO4lkLQ8lkt0DXYypbr.png" width="836"/></a>
-
+ <a href="https://asciinema.org/a/yXDeOftAFQQ6whLz7DYwc8yyz"><img src="https://asciinema.org/a/yXDeOftAFQQ6whLz7DYwc8yyz.png" width="836"/></a>

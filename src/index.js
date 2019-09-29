@@ -1,33 +1,37 @@
 import readlineSync from 'readline-sync';
+import { car, cdr } from '@hexlet/pairs';
 
-const sayHello = (helloWord) => {
+const firstRound = 1;
+const finalRound = 3;
+
+const checkCorrectAnswer = (question, correctAnswer) => {
+  console.log(`Question: ${question}`);
+  const userAnswer = readlineSync.question('Your answer: ');
+  const checkCorrect = correctAnswer === userAnswer;
+  const output = checkCorrect ? 'Correct!' : `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`;
+  console.log(output);
+  return checkCorrect;
+};
+
+export default (task, pair) => {
   console.log('Welcome to the Brain Games!');
-  console.log(helloWord);
-  const name = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${name}!`);
-  return name;
-};
-
-export const randomNum = () => Math.round(Math.random() * 100) + 1;
-
-export const takeAnswer = (numbers) => {
-  const gamerAnswer = readlineSync.question(`Question: ${numbers}\nYour answer: `);
-  return gamerAnswer;
-};
-
-export const testAnswer = (helloWord, generator, ans, corectAns) => {
-  const gamerName = sayHello(helloWord);
-
-  for (let i = 0; i < 3; i += 1) {
-    const randGenerator = generator();
-    const gamerAnswer = ans(randGenerator);
-    const correctAnswer = corectAns(randGenerator);
-    if (gamerAnswer === correctAnswer) {
-      console.log('Correct!');
-    } else {
-      return console.log(`'${gamerAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${gamerName}!`);
+  const userName = readlineSync.question('\nMay I have your name? ');
+  console.log(`Hello, ${userName}!\n`);
+  console.log(task);
+  const recursion = (round) => {
+    if (round > finalRound) {
+      console.log(`Congratulations, ${userName}!`);
+      return;
     }
-  }
-
-  return console.log(`Congratulations, ${gamerName}!`);
+    const info = pair();
+    const question = car(info);
+    const correctAnswer = cdr(info);
+    const checkCorrect = checkCorrectAnswer(question, correctAnswer);
+    if (checkCorrect) {
+      recursion(round + 1);
+    } else {
+      console.log(`Let's try again, ${userName}!`);
+    }
+  };
+  recursion(firstRound);
 };

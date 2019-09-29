@@ -1,8 +1,7 @@
 {
   "name": "anf-project-lvl1-braingames",
-  "version": "0.0.25",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.30",
+  "description": "Games with numbers",
   "bin": {
     "brain-calc": "dist/bin/brain-calc.js",
     "brain-even": "dist/bin/brain-even.js",
@@ -18,8 +17,11 @@
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "games",
+    "brain-games" 
+  ],
+  "author": "Evgeny Saplev",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.5.5",
