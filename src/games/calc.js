@@ -1,15 +1,14 @@
 import { cons } from '@hexlet/pairs';
-import testAnswer from '..';
+import startGame from '..';
 import getRandomInteger from '../instruments';
 
-const task = 'What is the result of the expression?.\n';
+const task = 'What is the result of the expression?';
+const operators = ['*', '+', '-'];
 
 const getQuestionAndAnswer = () => {
-  const operators = ['*', '+', '-'];
-  const operatorIndex = getRandomInteger(0, operators.length - 1);
   const firstPart = getRandomInteger();
   const secondPart = getRandomInteger();
-  const operator = operators[operatorIndex];
+  const operator = operators[getRandomInteger(0, operators.length - 1)];
   const question = `${firstPart} ${operator} ${secondPart}`;
   let correctAnswer;
 
@@ -30,5 +29,5 @@ const getQuestionAndAnswer = () => {
 };
 
 export default () => {
-  testAnswer(task, getQuestionAndAnswer);
+  startGame(task, getQuestionAndAnswer);
 };

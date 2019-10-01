@@ -1,10 +1,13 @@
 import { cons } from '@hexlet/pairs';
-import testAnswer from '..';
+import startGame from '..';
 import getRandomInteger from '../instruments';
 
-const task = 'Answer "yes" if given number is prime. Otherwise answer "no".\n';
+const task = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const checkPrime = (num) => {
+const isPrime = (num) => {
+  if (num <= 1) {
+    return false;
+  }
   for (let i = 2; i < num; i += 1) {
     if (num % i === 0) {
       return false;
@@ -15,10 +18,10 @@ const checkPrime = (num) => {
 
 const getQuestionAndAnswer = () => {
   const question = getRandomInteger();
-  const correctAnswer = checkPrime(question) ? 'yes' : 'no';
+  const correctAnswer = isPrime(question) ? 'yes' : 'no';
   return cons(String(question), correctAnswer);
 };
 
 export default () => {
-  testAnswer(task, getQuestionAndAnswer);
+  startGame(task, getQuestionAndAnswer);
 };

@@ -1,6 +1,32 @@
+# BRAIN GAMES PROJECT
+
 <a href="https://codeclimate.com/github/anfieldka/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/b75937a2dc8eb984003a/maintainability" /></a>
-<a href="https://codeclimate.com/github/anfieldka/frontend-project-lvl1/test_coverage"><img src="https://api.codeclimate.com/v1/badges/b75937a2dc8eb984003a/test_coverage" /></a>
+
 <a href="https://travis-ci.org/anfieldka/frontend-project-lvl1"><img src="https://travis-ci.org/anfieldka/frontend-project-lvl1.svg?branch=master" /></a>
+
+## Installation
+```
+npm i anf-project-lvl1-braingames -g
+```
+## You will find 5 games inside this package:
+```
+brain-even, brain-calc, brain-gcd, brain-balance, brain-prime
+```
+
+>Even game
+>>Answer 'yes' if number even otherwise answer 'no'. **brain-even**
+
+>Calc game
+>>What is the result of the expression? **brain-calc**
+
+>Greatest common divisor game
+>>Find the greatest common divisor of given numbers **brain-gcd**
+
+>Progression
+>>What number is missing in this progression? **brain-progression**
+
+>Prime number game
+>>Ask yes if number is prime **brain-prime**
 
 
 <h3><em>Even game</em></h3>
