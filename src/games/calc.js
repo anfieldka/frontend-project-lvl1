@@ -6,21 +6,21 @@ const task = 'What is the result of the expression?';
 const operators = ['*', '+', '-'];
 
 const getQuestionAndAnswer = () => {
-  const firstPart = getRandomInteger();
-  const secondPart = getRandomInteger();
+  const firstOpeand = getRandomInteger();
+  const secondOperand = getRandomInteger();
   const operator = operators[getRandomInteger(0, operators.length - 1)];
-  const question = `${firstPart} ${operator} ${secondPart}`;
+  const question = `${firstOpeand} ${operator} ${secondOperand}`;
   let correctAnswer;
 
   switch (operator) {
     case '*':
-      correctAnswer = firstPart * secondPart;
+      correctAnswer = firstOpeand * secondOperand;
       break;
     case '+':
-      correctAnswer = firstPart + secondPart;
+      correctAnswer = firstOpeand + secondOperand;
       break;
     case '-':
-      correctAnswer = firstPart - secondPart;
+      correctAnswer = firstOpeand - secondOperand;
       break;
     default:
       break;
